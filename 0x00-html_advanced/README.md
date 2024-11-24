@@ -70,48 +70,60 @@ Copy the content of 0-index.html into 1-index.html
    - GitHub repository: alx-frontend
    - Directory: 0x00-html_advanced
    - File: 1-index.html
+
 ### 2. The head - meta charset, viewport, title, description, favicons
-    Copy the content of 1-index.html into 2-index.html
-    ![website name](./website_name.png)
-    Meta charset:
 
-    - add a meta tag inside the head:
-    - add the charset attribute with the value utf-8
-    Viewport:
+mandatory
 
-    - add a meta tag inside the head:
-    - add an attribute name on the tag and specify that it is the meta viewport
-    - add the key width with the value device-width
-    - add the key initial-scale with the value 1.0
-    - add the key viewport-fit with the value cover
-    Title:
+Copy the content of  `1-index.html`  into  `2-index.html`
 
-    - add the title tag just after the meta viewport with value: Homepage - Techium
-    Description:
+![title icon](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/11/2ba3a0d7878316de5aaa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20241124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241124T174825Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c6e2363f3e80dc59ef627b36cfee402cc22357baffb2692db5e3aa666a1fef65)
 
-    - add a meta tag inside the head section
-    - add an attribute name on the tag and specify that is the meta description
-    - add another attribute called content
-    - add the following description: Techium is a digital agency
-    Favicons:
+**Meta charset:**
 
-    download the image above to use as a favicon
-    Use the tool at https://realfavicongenerator.net/ to generate all the favicon formats
-    take the favicon.ico and favicon.png and place these at the root of your project directory, so that it is siblings with your [0-9]+-index.html files.
-    inside the head, create 2 link tags with these 3 attributes: rel, type, and href.
-    the first link tag:
-    - rel: icon
-    - type: image/x-icon
-    - href: ./favicon.ico
-    - the second link tag:
-    - rel: icon
-    - type: image/png
-    - href: ./favicon.png
-    **Repo**:
+-   add a  `meta`  tag inside the  `head`:
+    -   add the  `charset`  attribute with the value  `utf-8`
 
-       - GitHub repository: alx-frontend
-       - Directory: 0x00-html_advanced
-       - File: 2-index.html
+**Viewport:**
+
+-   add a  `meta`  tag inside the  `head`:
+    -   add an attribute  `name`  on the tag and specify that it is the meta  `viewport`
+    -   add the key  `width`  with the value  `device-width`
+    -   add the key  `initial-scale`  with the value  `1.0`
+    -   add the key  `viewport-fit`  with the value  `cover`
+
+**Title:**
+
+-   add the  `title`  tag just after the meta viewport with value:  `Homepage - Techium`
+
+**Description:**
+
+-   add a  `meta`  tag inside the  `head`  section
+    -   add an attribute  `name`  on the tag and specify that is the meta  `description`
+    -   add another attribute called  `content`
+    -   add the following description:  `Techium is a digital agency`
+
+**Favicons:**
+
+-   download the image above to use as a favicon
+-   Use the tool at  [https://realfavicongenerator.net/](https://intranet.alxswe.com/rltoken/mqMjSrqb5tk95tvgDQwa4A "https://realfavicongenerator.net/")  to generate all the favicon formats
+-   take the  `favicon.ico`  and  `favicon.png`  and place these at the root of your project directory, so that it is siblings with your  `[0-9]+-index.html`  files.
+-   inside the  `head`, create 2  `link`  tags with these 3 attributes:  `rel`,  `type`, and  `href`.
+    -   the first  `link`  tag:
+        -   rel:  `icon`
+        -   type:  `image/x-icon`
+        -   href:  `./favicon.ico`
+    -   the second  `link`  tag:
+        -   rel:  `icon`
+        -   type:  `image/png`
+        -   href:  `./favicon.png`
+
+**Repo:**
+
+-   GitHub repository:  `alx-frontend`
+-   Directory:  `0x00-html_advanced`
+-   File:  `2-index.html`
+
 ### 3. Simple header, main, footer
 
 mandatory
